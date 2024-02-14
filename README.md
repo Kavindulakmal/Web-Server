@@ -37,7 +37,7 @@ Here is a simple flow chart:
 ```mermaid
 graph TD;
     SERVER--> /;
-    A-->C;
+    SERVER-->/hello;
     B-->D;
     C-->D;
 ```
