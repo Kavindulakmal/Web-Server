@@ -1,7 +1,7 @@
 # Simple HTTP Server With Go
 
 ## Description
-Welcome to the project! This is a Web Server With Golang. hope you enjoy and we look forward to your contributions!
+Welcome to the project! This is a Web Server With Golang. hope you enjoy and I look forward to your contributions!
 
 ### Prerequisites
 1. install Go 
