@@ -20,28 +20,6 @@ go run main.go
 #### Once the server is up and running, you can access the contents of the specified directory by visiting http://localhost:8000/ in your web browser.
 and also Navigate to URL http://localhost:8000/hello and  http://localhost:8000/form
 
-##Flow chart
-
-```mermaid
-graph TD;
-    SERVER-->/;
-    SERVER-->/hello;
-    SERVER-->/form;
-    /-->index.html;
-    /hello-->hello func;
-    /form-->form;
-    /func-->form.html
-```
-Here is a simple flow chart:
-
-```mermaid
-graph TD;
-    SERVER--> /;
-    SERVER-->/hello;
-    SERVER-->/form;
-    /-->index.html;
-    /hello-->hello func
-```
 
 
 ### Contributing
