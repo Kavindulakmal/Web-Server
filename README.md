@@ -39,7 +39,7 @@ graph TD;
     SERVER--> /;
     SERVER-->/hello;
     SERVER-->/form;
-    C-->D;
+    /-->index.html;
 ```
 
 
