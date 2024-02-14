@@ -17,7 +17,10 @@ Welcome to the project! This is a Web Server With Golang. hope you enjoy and we 
 ```
 go run main.go
 ```
-#### Once the server is up and running, you can access the contents of the specified directory by visiting http://localhost:8000 in your web browser.
+#### Once the server is up and running, you can access the contents of the specified directory by visiting http://localhost:8000/ in your web browser.
+and also Navigate to URL http://localhost:8000/hello and  http://localhost:8000/form
+
+
 
 
 ### Contributing
