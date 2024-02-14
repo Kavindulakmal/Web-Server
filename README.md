@@ -1,4 +1,4 @@
-# Simple HTTP Server With Go 🦫
+# Simple HTTP Server With Go 
 
 ## Description
 Welcome to the project! This is a Web Server With Golang. hope you enjoy and I look forward to your contributions!
@@ -20,6 +20,17 @@ go run main.go
 #### Once the server is up and running, you can access the contents of the specified directory by visiting http://localhost:8000/ in your web browser.
 and also Navigate to URL http://localhost:8000/hello and  http://localhost:8000/form
 
+##Flow chart
+
+```mermaid
+graph TD;
+    SERVER-->/;
+    SERVER-->/hello;
+    SERVER-->/form;
+    /-->index.html;
+    /hello-->hello func;
+    /form-->form func-->form.html;
+```
 
 
 
