@@ -29,7 +29,8 @@ graph TD;
     SERVER-->/form;
     /-->index.html;
     /hello-->hello func;
-    /form-->form func-->form.html;
+    /form-->form;
+    /func-->form.html
 ```
 
 
