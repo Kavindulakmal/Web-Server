@@ -32,7 +32,15 @@ graph TD;
     /form-->form;
     /func-->form.html
 ```
+Here is a simple flow chart:
 
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
 
 
 ### Contributing
