@@ -38,7 +38,7 @@ Here is a simple flow chart:
 graph TD;
     SERVER--> /;
     SERVER-->/hello;
-    B-->D;
+    SERVER-->/form;
     C-->D;
 ```
 
