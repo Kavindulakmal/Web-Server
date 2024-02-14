@@ -40,6 +40,7 @@ graph TD;
     SERVER-->/hello;
     SERVER-->/form;
     /-->index.html;
+    /hello-->hello func
 ```
 
 
